@@ -1,0 +1,100 @@
+*{
+    background-image: url("https://rare-gallery.com/uploads/posts/517110-jellyfish-black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  
+  
+  .forgot-account-container {
+    
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(3 45 60 / 75%);
+    border-radius: 10px;
+    margin: 60px auto;
+    padding: 40px;
+    width: 420px;
+    position: relative;
+    box-shadow: 0 8px 12px 8px rgba(49, 168, 164, 0.7);
+  }
+  
+  .forgot-account-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #78e9ffec;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .forgot-account-form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+  }
+  
+  .forgot-account-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #78e9ffec;
+    background: transparent;
+  }
+  
+  .forgot-account-form input[type="text"],
+  .forgot-account-form input[type="email"],
+  .forgot-account-form input[type="password"] {
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #00c8f5;
+    background: none;
+    color: #ffff;
+  }
+  
+  .forgot-account-form input[type="submit"],
+  .forgot-account-form button {
+    border: 1px solid #00c2fd;
+    background: none;
+    color: #74ebd5;
+    border-radius: 2rem;
+    font-size: xx-small;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(50px);
+  }
+  
+  .forgot-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+  }
+  
+  
+  
+  .forgot-account-form input[type="submit"]:hover,
+  .forgot-account-form button:hover {
+    transform: scale(1.05);
+  }
+  
+  .forgot-account-container a {
+    color: #34c8db;
+    font-size: 14px;
+    text-decoration: none;
+    background: transparent;
+  }
+  
+  .forgot-account-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #003366;
+    font-size: 14px;
+    margin-top: 5px;
+  }

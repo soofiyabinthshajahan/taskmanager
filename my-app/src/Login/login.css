@@ -1,0 +1,145 @@
+.container {
+    background-image: url("https://rare-gallery.com/uploads/posts/517110-jellyfish-black.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    border-radius: 10px;
+    margin: 80px auto;
+    padding: 40px;
+    width: 420px;
+    position: relative;
+    backdrop-filter: blur(10px) saturate(175%);
+    -webkit-backdrop-filter: blur(10px) saturate(175%);
+    background-color: rgba(248, 248, 248, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 6px 18px 6px rgba(49, 168, 164, 0.7);
+    background: transparent;
+  }
+  
+  .login-container h1,
+  .login-container h3,
+  .login-form label,
+  .login-form input[type="text"],
+  .login-form input[type="password"],
+  .login-form input[type="submit"],
+  .login-container a,
+  .error-message {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .login-container h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #78e9ffec;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .login-container h3 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #78e9ffec;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+  }
+  
+  .login-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #78e9ffec;
+    background: transparent;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #00c8f5;
+    background: none;
+    color: #ffff;
+  }
+  
+  .login-form input[type="submit"] {
+    border: 2px solid #00c2fd;
+    background: none;
+    color: #74ebd5;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+  
+  .password-field {
+    position: relative;
+    background: transparent;
+  }
+  
+  .password-field span {
+    background: transparent;
+    color: #12d3c9;
+  }
+  
+  .password-field input[type="password"] {
+    padding-right: 45px;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .toggle-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-form input[type="submit"]:hover {
+    transform: scale(1.05);
+  }
+  
+  .login-container a {
+    color: #34c8db;
+    font-size: 14px;
+    text-decoration: none;
+    background: transparent;
+  }
+  
+  .error-message {
+    color: #003366;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button {
+    border: none;
+    background: transparent;
+  }

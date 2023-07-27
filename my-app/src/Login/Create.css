@@ -1,0 +1,117 @@
+*{
+    background-image: radial-gradient(circle, #084a5f, #0b3e4e, #0d323d, #0e272e, #0d1c20, #0b171a, #071114, #03090c, #03080b, #040709, #040608, #040506);
+
+}
+
+.create-account-container {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(133, 164, 175, 0.75);
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 40px;
+    width: 420px;
+    position: relative;
+    color: #fff;
+    box-shadow: 0 8px 12px 8px rgba(49, 168, 164, 0.7);
+
+}
+
+.create-account-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #78e9ff;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.create-account-form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.create-account-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #78e9ff;
+    background: transparent;
+}
+
+.create-account-form input[type="text"],
+.create-account-form input[type="password"]
+ {
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #00c8f5;
+    background: none;
+    color: #fff;
+ }
+
+ #email{
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #00c8f5;
+    background: none;
+    color: #fff;
+ }
+
+.create-account-form input[type="submit"] {
+    border: 2px solid #00c2fd;
+    background: none;
+    color: #74ebd5;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.password-field {
+    position: relative;
+    background: transparent;
+}
+
+.password-field span {
+    background: transparent;
+    color: #12d3c9;
+}
+
+.password-field input[type="password"] {
+    padding-right: 45px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+}
+
+.toggle-password:hover {
+    text-decoration: underline;
+}
+
+.create-account-container .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.create-account-container .links a {
+    color: #34c8db;
+    font-size: 14px;
+    text-decoration: none;
+    background: transparent;
+}
+
+.create-account-container .links a:hover {
+    text-decoration: underline;
+}
